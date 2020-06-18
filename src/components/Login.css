@@ -1,0 +1,120 @@
+.Login {
+  margin-top: 30px;
+}
+
+.Login .Header h1 {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  margin-top: 20px;
+}
+.Login .main {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #d8dee2;
+  width: 270px;
+  min-height: 200px;
+  margin: 10px auto;
+  text-align: left;
+}
+.Login .main .main1 {
+  margin-left: 18px;
+  margin-top: 18px;
+}
+.Login .main .main1 label {
+  font-weight: bold;
+  font-size: 13px;
+}
+.Login .main .main1 input {
+  width: 90%;
+  height: 25px;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #E9EEFF;
+  border: 1px solid #D1D4DA;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+}
+.Login .main .main1 input:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+  border: 1px solid blue;
+}
+.Login .main .main1 a {
+  text-decoration: none;
+  font-size: 0.68em;
+  font-weight: bold;
+  color: #0366d6;
+  float: right;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.Login .main .main1 label.password {
+  display: flex;
+  float: left;
+  margin-top: 9px;
+}
+.Login .main .main1 input.submit {
+  width: 93%;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+  box-shadow: none;
+  border: 1px solid #28a745;
+  height: 31px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  overflow: visible;
+}
+.Login .main .main1 input.submit:hover {
+  outline: none;
+  border: 1px solid rgb(90, 73, 73);
+}
+.Login .bottom {
+  border: 1px solid #d8dee2;
+  width: 270px;
+  height: 46px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.Login .bottom p {
+  margin: 0px;
+  font-size: 13px;
+}
+.Login .bottom p a {
+  font-size: 13px;
+  color: #0366d6;
+  text-decoration: none;
+  line-height: 50px;
+}
+.Login .bottom p a:hover {
+  text-decoration: underline;
+}
+.Login .additional {
+  margin-top: 70px;
+  font-size: 11px;
+  margin-right: 20px;
+}
+.Login .additional ul {
+  list-style-type: none;
+}
+.Login .additional ul li {
+  display: inline;
+  margin-right: 20px;
+  
+}
+.Login .additional ul li a {
+  text-decoration: none;
+  color: #0366d6;
+}
+.Login .additional ul li a:hover {
+  text-decoration: underline;
+}
+.Login .additional ul li a.contact {
+  color: #586069!important;
+}
