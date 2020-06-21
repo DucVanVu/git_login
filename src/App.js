@@ -9,11 +9,11 @@ const useStyles = makeStyles({
     backgroundColor: '#F9F9F9',
     minHeight: '500px',
     textAlign: 'center',
-    fontFamily: 
+    fontFamily:
       "-apple-system, BlinkMacSystemFont,Segoe UI, Helvetica,Arial,sans-serif, Apple Color Emoji, Segoe UI Emoji",
     color: '#24292e',
   }
-})
+});
 export default function App() {
 
   const classes = useStyles();
@@ -23,4 +23,3 @@ export default function App() {
     </Container>
   )
 }
-

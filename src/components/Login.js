@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import FormControl from '@material-ui/core/FormControl';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
-import { makeStyles, styled } from '@material-ui/core/styles';
+import { makeStyles, styled } from  '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import GithubIcon from '@material-ui/icons/GitHub';
 import React from 'react';
